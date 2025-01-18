@@ -1,0 +1,607 @@
+{
+  "compatibilityLevel": 1550,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"01 Churn-Dataset\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.138.1452.0 (24.11)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-IN",
+    "cultures": [
+      {
+        "name": "en-IN",
+        "linguisticMetadata": {
+          "content": {
+            "Language": "en-US",
+            "Version": "1.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "en-IN",
+    "tables": [
+      {
+        "name": "01 Churn-Dataset",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "customerID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7c292fee-dfff-4ec7-85a0-cac633a2da0c",
+            "sourceColumn": "customerID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "gender",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "65b76b28-56f3-4690-995e-50047de47033",
+            "sourceColumn": "gender",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SeniorCitizen",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c55acb68-7004-4316-999a-bad401d20a4e",
+            "sourceColumn": "SeniorCitizen",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Partner",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e1efcd91-82cc-4e20-b606-57b8ad318f6a",
+            "sourceColumn": "Partner",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Dependents",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b86874ac-a4e5-4b38-a0b1-aa3ce4cb1e40",
+            "sourceColumn": "Dependents",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tenure",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "18f502a5-635d-49b5-88ed-e2877fb1c37c",
+            "sourceColumn": "tenure",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "PhoneService",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2561c6e2-4008-484b-97a4-3bca7fce2558",
+            "sourceColumn": "PhoneService",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "MultipleLines",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b5e0d9bb-edbd-488d-a436-694a05305939",
+            "sourceColumn": "MultipleLines",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "InternetService",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "80ffa1cd-d07c-4160-b65b-b84ceb32c110",
+            "sourceColumn": "InternetService",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "OnlineSecurity",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8c285141-1b63-4a0b-afd8-778a6c0a1c33",
+            "sourceColumn": "OnlineSecurity",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "OnlineBackup",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5c0dc406-ce4a-4e0c-9b4c-db4745c9a8c4",
+            "sourceColumn": "OnlineBackup",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "DeviceProtection",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6a0b1336-9b70-4239-869f-cceca06b4d10",
+            "sourceColumn": "DeviceProtection",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "TechSupport",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9c902084-de36-4c01-8e42-f6908d14e1d0",
+            "sourceColumn": "TechSupport",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "StreamingTV",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f2cba5cf-03fb-43b5-8a54-a21cae760301",
+            "sourceColumn": "StreamingTV",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "StreamingMovies",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "baffd072-b05a-447e-8cd9-e95349b55c66",
+            "sourceColumn": "StreamingMovies",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Contract",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "069c14d2-2dfb-40f4-aee2-b10bdbe47e51",
+            "sourceColumn": "Contract",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "PaperlessBilling",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8e7fb358-88af-4e0f-a2df-d47082dcc518",
+            "sourceColumn": "PaperlessBilling",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "PaymentMethod",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f0fcbf7d-5511-4de7-8c75-fead4e8827af",
+            "sourceColumn": "PaymentMethod",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "MonthlyCharges",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "dad85047-00b6-443a-9138-ddd2ce40a2e7",
+            "sourceColumn": "MonthlyCharges",
+            "summarizeBy": "average"
+          },
+          {
+            "name": "TotalCharges",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "c7b800f0-f43b-4b35-ac93-2bff0a2004e9",
+            "sourceColumn": "TotalCharges",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "numAdminTickets",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "d7327472-f2e1-4d83-803d-f32561d84c18",
+            "sourceColumn": "numAdminTickets",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "numTechTickets",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "eb6f2071-b2b5-42e4-a945-7e05d24cb020",
+            "sourceColumn": "numTechTickets",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Churn",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e64fc8d7-93e0-4435-b340-9c7216cc2d67",
+            "sourceColumn": "Churn",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "0c1cecb5-71f8-4b01-929d-3ba9dedb9db7",
+        "measures": [
+          {
+            "name": "Average Churns",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "AVERAGEX('01 Churn-Dataset',COUNTA('01 Churn-Dataset'[Churn]))",
+            "lineageTag": "eb316992-3d1a-492e-98fb-c93dbbed23cc"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "01 Churn-Dataset",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\admin\\Downloads\\02 Churn-Dataset.xlsx\"), null, true),",
+                "    #\"01 Churn-Dataset_Sheet\" = Source{[Item=\"01 Churn-Dataset\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"01 Churn-Dataset_Sheet\", [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"customerID\", type text}, {\"gender\", type text}, {\"SeniorCitizen\", Int64.Type}, {\"Partner\", type text}, {\"Dependents\", type text}, {\"tenure\", Int64.Type}, {\"PhoneService\", type text}, {\"MultipleLines\", type text}, {\"InternetService\", type text}, {\"OnlineSecurity\", type text}, {\"OnlineBackup\", type text}, {\"DeviceProtection\", type text}, {\"TechSupport\", type text}, {\"StreamingTV\", type text}, {\"StreamingMovies\", type text}, {\"Contract\", type text}, {\"PaperlessBilling\", type text}, {\"PaymentMethod\", type text}, {\"MonthlyCharges\", type number}, {\"TotalCharges\", type number}, {\"numAdminTickets\", Int64.Type}, {\"numTechTickets\", Int64.Type}, {\"Churn\", type text}})",
+                "in",
+                "    #\"Changed Type\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DateTableTemplate_13c60268-95a9-40ce-9d6b-80e36899fb4b",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "6ce9e237-3441-4b46-a387-4c92fc7ed657",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isHidden": true,
+            "lineageTag": "4933e986-9db4-42a3-a578-db5083b2bcc1",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isHidden": true,
+            "lineageTag": "4ac3963e-f705-4de2-b29d-7f9b78d952e5",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "a9a6f503-269e-466f-8457-a7432d63c9d2",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isHidden": true,
+            "lineageTag": "ab38c8dc-5b1e-4742-9958-32ec53210197",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "9f61da4d-0aed-47de-abac-ddaf8da74656",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isHidden": true,
+            "lineageTag": "501da007-93fb-430a-9db5-60481cef1327",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "fa435c8d-fba8-4205-b541-35870d0a7770",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "07b64ef6-81da-4106-8d6a-1d13a7c36c84",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "12ee7ef0-0a95-46f2-9451-88a73c31367a",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "a28ec3b6-29fc-4934-9d6f-488fb34901a4",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "726e923d-c2dc-4b9b-9fd7-d67c445c5aeb"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "e76dc639-da18-4883-8fab-99b308d4cbe9",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_13c60268-95a9-40ce-9d6b-80e36899fb4b",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
