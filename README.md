@@ -18,3 +18,8 @@ This Power BI dashboard analyzes customer churn data, showing churn trends by co
 ## 📁 Files
 - `Customer Churn Analysis.pbix` – Main Power BI file
 - `dashboard.png` – Dashboard preview
+
+## 🚀 Project Badges
+![Power BI](https://img.shields.io/badge/Tool-PowerBI-yellow)
+![Customer Churn](https://img.shields.io/badge/Project-Customer%20Churn-blue)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
